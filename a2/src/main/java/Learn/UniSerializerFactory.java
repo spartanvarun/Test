@@ -1,0 +1,21 @@
+//package Learn;
+//
+//import com.fasterxml.jackson.databind.SerializerProvider;
+//import com.fasterxml.jackson.databind.ser.std.StdSerializer;
+//import io.smallrye.mutiny.Uni;
+//import java.io.IOException;
+//
+//public class UniSerializerFactory {
+//
+//    public static class UniSerializer extends StdSerializer<Uni<?>> {
+//
+//        public UniSerializer() {
+//            super(Uni.class, false);
+//        }
+//
+//        @Override
+//        public void serialize(Uni<?> value, com.fasterxml.jackson.core.JsonGenerator gen, SerializerProvider provider) throws IOException {
+//            // Your serialization logic here
+//        }
+//    }
+//}

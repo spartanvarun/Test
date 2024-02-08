@@ -74,7 +74,7 @@ public class crudAPI {
         if (!c.isValidApiKey(apiKey)) {
             throw new WebApplicationException("Unauthorized: Invalid API Key", 401);
         }
-        //Persons.findy
+     stat   Persons.findy
         List<Persons> l = Persons.findByFirstName(firstName);
         return Response.ok(l).build();
     }
